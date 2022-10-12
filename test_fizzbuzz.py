@@ -1,6 +1,12 @@
 from main import fizzbuzz
 
 
+def test_0_should_return_fizzbuzz():
+    result = fizzbuzz(0)
+    expected = "fizzbuzz"
+    assert result == expected
+
+
 def test_1_should_return_1():
     result = fizzbuzz(1)
     expected = "1"
