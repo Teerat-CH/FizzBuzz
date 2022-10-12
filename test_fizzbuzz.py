@@ -30,6 +30,7 @@ def test_6_should_return_fizz():
     expected = "fizz"
     assert result == expected
 
+
 def test_10_should_return_buzz():
     result = fizzbuzz(10)
     expected = "buzz"
@@ -38,5 +39,11 @@ def test_10_should_return_buzz():
 
 def test_15_should_return_fizzbuzz():
     result = fizzbuzz(15)
+    expected = "fizzbuzz"
+    assert result == expected
+
+
+def test_30_should_return_fizzbuzz():
+    result = fizzbuzz(30)
     expected = "fizzbuzz"
     assert result == expected
