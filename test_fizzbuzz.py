@@ -23,3 +23,9 @@ def test_5_should_return_buzz():
     result = fizzbuzz(5)
     expected = "buzz"
     assert result == expected
+
+
+def test_6_should_return_buzz():
+    result = fizzbuzz(6)
+    expected = "fizz"
+    assert result == expected
